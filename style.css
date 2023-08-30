@@ -10,6 +10,234 @@
      margin: auto;
      padding: 1rem,2.5rem;
      color: aliceblue;
+     
+  
+     
+}
+nav{
+    display: flex;
+    flex-direction:column;
+}
+.navigation .nav-pills{
+     text-align: left;
+ }
+
+ .navigation .link{
+     color:white;
+ }
+ .navigation .link-active{
+     font-weight: bold;
+ }
+ .list-non-bullet {
+     list-style-type: none;
+ }
+ .list-inline{
+     display: inline;
+     padding: 0rem;
+ }
+ 
+
+ body {
+    background-color: rgb(128, 0, 122);
+    font-family: 'Montserrat',
+    sans-serif;
+ 
+ }
+
+ .box-border {box-sizing: border-box; background-color: white; width: 45%; 
+   height:80ch;
+   
+    padding: 5px;
+   
+}
+.box{
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 12px 22px;
+    min-width: 33vw;
+    border: 2px black;
+    background-color: white
+}
+
+.hero {
+    padding: 1rem;
+    margin: auto;
+    display: flex;
+    
+}
+
+.hero .hero-img {
+    width: 230px;
+    height: 250px;
+   
+    display: flex;
+    
+    justify-content:left;
+    text-align: flex-end;
+    
+    
+    object-fit: cover;
+ 
+    padding-bottom: 2rem;
+    
+}
+
+.container-center{
+    max-width: 600px;
+    margin:auto;
+    text-align: center;         
+    padding-bottom: 2rem;
+
+}
+
+.buy-btn{
+    background-color: blue;
+    border: 1px solid ;
+   
+    color:white;
+    margin-right: 0.5rem;
+    width:40%;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    
+}
+.btn-container{
+    display: flex;
+    
+    justify-content: center;
+    text-align: flex-end;
+   
+    margin:auto;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.btn-container2{
+    display: flex;
+    
+    justify-content: center;
+    text-align: flex-end;
+   
+    margin: auto;
+    text-align: center;
+    padding-top: 2rem;
+
+    border-radius: 1rem;
+    padding: 2rem;
+    padding-bottom: 2rem;
+}
+
+.buy-btn2{
+
+    background-color: black;
+    border: 1px solid ;
+   
+    color:white;
+    margin-right: 0.5rem;
+    width:40%;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    
+}
+
+p{
+    padding:1rem 1rem;
+    font-size: large;
+}
+
+.fcontainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.section{
+   
+   
+    padding: 1rem ;
+}
+.hero2{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    padding: 1rem;
+}
+.sign-up{
+    background-color: green;
+    border: 1px solid ;
+   border-radius: 0.5rem;
+    color:white;
+    min-width: 30%;
+    margin-right: 0.5rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.box2{
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 12px 22px;
+    min-width: 33vw;
+    border: 2px black;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.507);
+   
+}
+h2{
+    text-align: center;
+  
+
+}
+.footer {
+    background-color: rgb(128, 0, 75);;
+    border-bottom-left-radius: 1rem;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+}
+.footer .footer-header {
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: white;
+}
+
+
+@media only screen and (min-width: 648px) {
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.header {
+     
+     font-weight: bold;
+     
+}
+.navigation{
+     background-color: rgb(128, 0, 75);
+     margin: auto;
+     padding: 1rem,2.5rem;
+     color: aliceblue;
 padding: 1rem;
   
      
@@ -29,7 +257,7 @@ padding: 1rem;
  }
  .list-inline{
      display: inline;
-     padding: 0rem 0.5rem;
+     padding: 0rem;
  }
 
  body {
@@ -145,6 +373,7 @@ p{
 
 .fcontainer{
     display: flex;
+    flex-direction: row;
 }
 
 .section{
@@ -215,4 +444,5 @@ ul {
     text-decoration: none;
     padding: 0.5rem 1rem;
     color: white;
+}
 }
