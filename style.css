@@ -43,7 +43,6 @@ nav{
     font-family: 'Montserrat',
     sans-serif;
     margin: 0rem;
- 
  }
 
  .box-border {box-sizing: border-box; background-color: white; width: 45%; 
@@ -285,7 +284,7 @@ padding: 1rem;
     background-color: rgb(128, 0, 122);
     font-family: 'Montserrat',
     sans-serif;
- 
+    margin: 0rem;
  }
 
  .box-border {box-sizing: border-box; background-color: white; width: 45%; 
@@ -467,7 +466,6 @@ ul {
     padding: 0.5rem 1rem;
     color: white;
 }
-
 .btn-container3{
     display: flex;
     
