@@ -7,10 +7,11 @@
 }
 .navigation{
      background-color: rgb(128, 0, 75);
-     margin: auto;
+     
      padding: 1rem,2.5rem;
      color: aliceblue;
-     
+     border-top-left-radius: 1rem;
+     border-bottom-right-radius: 1rem;
   
      
 }
@@ -19,7 +20,7 @@ nav{
     flex-direction:column;
 }
 .navigation .nav-pills{
-     text-align: left;
+     text-align: right;
  }
 
  .navigation .link{
@@ -33,7 +34,7 @@ nav{
  }
  .list-inline{
      display: inline;
-     padding: 0rem;
+     margin:0rem 0.5rem;
  }
  
 
@@ -41,6 +42,7 @@ nav{
     background-color: rgb(128, 0, 122);
     font-family: 'Montserrat',
     sans-serif;
+    margin: 0rem;
  
  }
 
@@ -64,6 +66,10 @@ nav{
     margin: auto;
     display: flex;
     
+}
+
+input{
+    padding: 0.5rem
 }
 
 .hero .hero-img {
@@ -96,7 +102,7 @@ nav{
    
     color:white;
     margin-right: 0.5rem;
-    width:40%;
+    width:100%;
     padding-bottom: 1rem;
     padding-top: 1rem;
     
@@ -137,7 +143,7 @@ nav{
    
     color:white;
     margin-right: 0.5rem;
-    width:40%;
+    width:100%;
     padding-bottom: 1rem;
     padding-top: 1rem;
     
@@ -170,7 +176,7 @@ p{
     border: 1px solid ;
    border-radius: 0.5rem;
     color:white;
-    min-width: 30%;
+    min-width: 100%;
     margin-right: 0.5rem;
     padding-bottom: 1rem;
     padding-top: 1rem;
@@ -219,9 +225,24 @@ ul {
 }
 .link {
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    /* padding: 0.5rem 1rem; */
     color: white;
 }
+
+.btn-container3{
+    display: flex;
+    
+    justify-content: center;
+    text-align: flex-end;
+   
+    margin:auto;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
 
 
 @media only screen and (min-width: 648px) {
@@ -243,7 +264,7 @@ padding: 1rem;
      
 }
 .navigation .nav-pills{
-     text-align: left;
+     text-align: right;
  }
 
  .navigation .link{
@@ -257,7 +278,7 @@ padding: 1rem;
  }
  .list-inline{
      display: inline;
-     padding: 0rem;
+     margin:0rem 0.5rem;
  }
 
  body {
@@ -380,6 +401,7 @@ p{
    
    
     padding: 1rem ;
+    text-align: center
 }
 .hero2{
    
@@ -445,4 +467,19 @@ ul {
     padding: 0.5rem 1rem;
     color: white;
 }
+
+.btn-container3{
+    display: flex;
+    
+    justify-content: center;
+    text-align: flex-end;
+   
+    margin:auto;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
 }
